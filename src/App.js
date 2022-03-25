@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Clock from "./clock";
 
 function App() {
   return (
     <div className="App">
+      <Clock></Clock>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
